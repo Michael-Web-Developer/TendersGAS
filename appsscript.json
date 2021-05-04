@@ -1,0 +1,23 @@
+{
+  "timeZone": "Asia/Vladivostok",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "TenderProject",
+      "libraryId": "1VU5n48fE8C2rHCxDGzFZdh0-osaiODfinjTihidmCZvMZ6zhXkLrydNK",
+      "version": "1",
+      "developmentMode": true
+    }]
+  },
+  "webapp": {
+    "access": "MYSELF",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "onOpen",
+      "functionName": "onOpen"
+    }]
+  }
+}
